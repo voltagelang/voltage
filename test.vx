@@ -1,0 +1,6 @@
+fn main() {
+   print("this print function doesnt include a newline automatically at the end");
+   puts("this puts function includes a newline at the end");
+   let x = 1;
+   puts("the value of x is {}", x);
+}

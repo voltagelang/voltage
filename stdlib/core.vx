@@ -1,0 +1,59 @@
+// Standard library for Voltage
+// Core functionality that's built into the runtime
+
+// I/O functions
+fn print(value: String) -> i32 {
+    // Prints without newline - already implemented
+    // Handled by builtin in the VM
+    0
+}
+
+fn puts(value: String) -> i32 {
+    // Prints with newline - already implemented
+    // Handled by builtin in the VM
+    0
+}
+
+fn input() -> String {
+    // Reads a line from stdin
+    // This will be implemented as a builtin in the VM
+    ""
+}
+
+// Memory management (will be handled by GC)
+fn gc_collect() -> i32 {
+    // Forces garbage collection
+    0
+}
+
+fn gc_stats() -> String {
+    // Returns GC statistics
+    "GC Stats: Placeholder"
+}
+
+// Type conversion functions
+fn to_string<T>(value: T) -> String {
+    // Converts any type to string representation
+    ""
+}
+
+fn to_int(str: String) -> i32 {
+    // Converts string to integer
+    0
+}
+
+fn to_float(str: String) -> f64 {
+    // Converts string to float
+    0.0
+}
+
+// Utility functions
+fn sleep(ms: i32) -> i32 {
+    // Sleeps for specified milliseconds
+    0
+}
+
+fn exit(code: i32) -> ! {
+    // Exits the program with specified code
+    // This is a never-returning function
+}

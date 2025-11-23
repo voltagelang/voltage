@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "voltage-cli",
+    "voltage-jit",
+    "voltage-parser",
+    "voltage-core",
+    "voltage-vm",
+]
+resolver = "2"

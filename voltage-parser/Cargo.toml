@@ -1,0 +1,8 @@
+[package]
+name = "voltage-parser"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+voltage-core = { path = "../voltage-core" }
+logos = "0.14"
